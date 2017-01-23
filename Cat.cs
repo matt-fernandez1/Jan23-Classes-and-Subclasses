@@ -15,12 +15,12 @@ namespace Jan23
         private bool declawed;
 
 
-        public Cat(string breed, string furLength, bool declawed): base(4,3,3)//the base ties into animal.cs strings of legs, size, weight
+        public Cat(string breed, string furLength, bool declawed, string color): base(4,3,3)//the base ties into animal.cs strings of legs, size, weight
         {
             this.breed = breed;
             this.furLength = furLength;
             this.declawed = declawed;
-            color = "Grey";
+            this.color = color;
         }
     }
 }
