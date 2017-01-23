@@ -41,10 +41,10 @@ namespace Jan23
         //method
         public void printAnimalInfo()
         {
-            Console.WriteLine("This animal has " + legs + "# of legs");
+            Console.WriteLine("This animal has " + legs + " legs");
             Console.WriteLine("It's size is: " + size);
             Console.WriteLine("It weighs: " + weight);
-            Console.WriteLine("And is the color " + color);
+            Console.WriteLine("And is the color " + color+ "\n");
         }
     }
 }
