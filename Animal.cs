@@ -13,9 +13,15 @@ namespace Jan23
         private int size;
         private int weight;
 
-        private string color;
+        protected string color; //changed to protected
 
-        private bool isGoodToEat;
+        protected bool isGoodToEat;
+
+        public int Legs
+        {
+            get { return this.legs; }
+            set { this.legs = value; }
+        }
 
         public Animal()
         {
@@ -41,6 +47,7 @@ namespace Jan23
             this.size = size;
             this.weight = weight;
             this.color = color;
+            isGoodToEat = false;
         }
         //method
         public void printAnimalInfo()

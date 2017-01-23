@@ -20,6 +20,7 @@ namespace Jan23
             this.breed = breed;
             this.furLength = furLength;
             this.declawed = declawed;
+            color = "Grey";
         }
     }
 }
