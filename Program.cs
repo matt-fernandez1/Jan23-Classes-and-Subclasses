@@ -18,6 +18,9 @@ namespace Jan23
 
             animal1.printAnimalInfo();
             animal2.printAnimalInfo();
+
+            Cat cat1 = new Cat("Grumpy", "Short", false);
+            cat1.printAnimalInfo();
         }
     }
 }

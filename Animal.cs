@@ -17,6 +17,10 @@ namespace Jan23
 
         private bool isGoodToEat;
 
+        public Animal()
+        {
+
+        }
         //constructors
         public Animal(int legs, string color)
         {
