@@ -21,6 +21,12 @@ namespace Jan23
             this.furLength = furLength;
             this.declawed = declawed;
             this.color = color;
+            isGoodToEat = false;
+        }
+
+        public void Speak()
+        {
+            Console.WriteLine("Meow!");
         }
     }
 }

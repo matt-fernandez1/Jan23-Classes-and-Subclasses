@@ -14,12 +14,17 @@ namespace Jan23
         private bool teeth;
         private string waterType;
 
-        public Fish(int fins, bool scales, bool teeth, string waterType)
+        public Fish(int fins, bool scales, bool teeth, string waterType):base(0, "silver") //base pulls animal constructor
         {
                 this.fins = fins;
                 this.scales = scales;
                 this.teeth = teeth;
                 this.waterType = waterType;
+        }
+
+        public void Swim()
+        {
+            Console.WriteLine("Just keep swimming, just keep swimming...");
         }
     }
 }

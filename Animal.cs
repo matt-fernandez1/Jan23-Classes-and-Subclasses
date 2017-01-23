@@ -47,7 +47,7 @@ namespace Jan23
             this.size = size;
             this.weight = weight;
             this.color = color;
-            isGoodToEat = false;
+            
         }
         //method
         public void printAnimalInfo()
@@ -55,7 +55,12 @@ namespace Jan23
             Console.WriteLine("This animal has " + legs + " legs");
             Console.WriteLine("It's size is: " + size);
             Console.WriteLine("It weighs: " + weight);
-            Console.WriteLine("And is the color " + color+ "\n");
+            Console.WriteLine("And is the color " + color);
+        }
+
+        protected void WhoAmI()
+        {
+            Console.WriteLine("I am an animal");
         }
     }
 }
